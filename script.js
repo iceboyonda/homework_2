@@ -19,7 +19,7 @@ const array = [v1, s1, k, v2, s2]; //массив с массивами
 
 const cenaproezda = 120; // Цена проезда
 
-const PlayStation = 23500; // Цена приставки (Сколько надо накопить)
+const playStation = 23500; // Цена приставки (Сколько надо накопить)
 
 const dalinaproezd = 150; // (Сколько дают на проезд в день)
 
@@ -66,19 +66,19 @@ for (let i = 0; i < array.length; i++) { //i++ прибавление едини
 
             }
 
-            if(PlayStation <= piggybank) break //Закрытие зикла номер 1, если накопил 
+            if(playStation <= piggybank) break //Закрытие зикла номер 1, если накопил 
         
         }
 
-    if(PlayStation <=  piggybank) break //Закрытие зикла номер 2, если накопил 
+    if(playStation <=  piggybank) break //Закрытие зикла номер 2, если накопил 
 
     }
 
-    if(PlayStation <= piggybank) break //Закрытие зикла номер 3, если накопил 
+    if(playStation <= piggybank) break //Закрытие зикла номер 3, если накопил 
 
 }
 
-if(PlayStation <= piggybank){console.log('Накопил', piggybank, day) // После проверки на накопление, выдает ответ при успехе
+if(playStation <= piggybank){console.log('Накопил', piggybank, day) // После проверки на накопление, выдает ответ при успехе
 
 }
 
